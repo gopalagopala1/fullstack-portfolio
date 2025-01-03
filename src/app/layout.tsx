@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nova_Mono } from "next/font/google";
 import "./globals.css";
+import BaseLayout from "@/Layout/BaseLayout";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const novaMono = Nova_Mono({
+  weight: "400",
+  variable: "--font-nova-mono",
   subsets: ["latin"],
 });
 
@@ -25,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${novaMono.variable} antialiased`}
       >
-        {children}
+        <BaseLayout>{children}</BaseLayout>
       </body>
     </html>
   );
