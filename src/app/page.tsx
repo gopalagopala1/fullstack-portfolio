@@ -57,7 +57,7 @@ export default function Home() {
 
 return <div className="flex flex-col justify-center gap-6">
 
-    <h1 className="text-lg font-extrabold text-green text-center">Ask Away, Know Me!!!</h1>
+    <h1 className="text-xl font-extrabold text-green text-center">Ask Away, Know Me!!!</h1>
 
 
     {chat()}
