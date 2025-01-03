@@ -13,7 +13,7 @@ import { usePathname } from "next/navigation";
 const Navigation = () => {
   const pathname = usePathname();
   const getClasses = (route: string) =>
-    pathname === route ? "text-yellow-400" : "";
+    pathname === route ? "text-secondary" : "";
 
   return (
     <nav>

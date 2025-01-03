@@ -6,6 +6,11 @@
   --background: #ffffff;
   --foreground: #171717;
   --font-nova-mono: 'Nova Mono', monospace;
+  --color-primary: #3498db;
+  --color-secondary: #e74c3c;
+  --color-green: #2ecc71;
+  --color-yellow: #f1c40f;
+  --color-gray: #95a5a6;
 }
 
 @media (prefers-color-scheme: dark) {
