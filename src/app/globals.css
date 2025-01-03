@@ -26,3 +26,11 @@ body {
   background: var(--background);
   font-family: var(--font-nova-mono);
 }
+
+
+@layer components {
+  .border-pattern {
+    border: 1rem solid #aaaaff;
+    border-image: repeating-linear-gradient(45deg, transparent, transparent 5px, #3498db 6px, #3498db 15px, transparent 16px, transparent 20px) 20/1rem;
+  }
+}

@@ -31,6 +31,9 @@ export default {
           secondary: "var(--color-text-secondary)",
         },
       },
+      backgroundImage: {
+        'diagonal-pattern': `repeating-linear-gradient(45deg, transparent, transparent 5px, #aaaaff 6px, #aaaaff 15px, transparent 16px, transparent 20px)`,
+      },
     },
   },
   plugins: [],
